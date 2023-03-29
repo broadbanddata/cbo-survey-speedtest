@@ -1,0 +1,74 @@
+﻿
+.header {
+    background-image: url(../resources/speedtestBanner2.png), url(../resources/background.png);
+    background-repeat: no-repeat, repeat-x;
+    font-size: 18pt;
+    text-align: left;
+    font-weight: 700;
+    height: 55px;
+    vertical-align: top;
+    border-radius: 15px;
+}
+
+.body{
+	background-color:green;
+}
+
+#splashscreen{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	background-color:white;
+}
+
+:root {
+  font-family: "Avenir Next", "Avenir", "Helvetica Neue", "sans-serif";
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#main-section {
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#survey123-panel {
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#ookla-panel {
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.panel {
+  position: absolute;
+  z-index: 1;
+  opacity: 1;
+  transition: opacity 0.5s linear;
+}
+
+.panel.hide {
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  /*display: none;*/
+}
+
+.panel iframe {
+  width: 100vw;
+  min-height: 100vh;
+}

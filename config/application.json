@@ -1,0 +1,10 @@
+{
+  "title": "Colorado Broadband Survey and Speedtest",
+  "description": "Test and submit your current internet connection speed.",
+  "portalUrl": "https://cooit.maps.arcgis.com",
+  "clientId": "",
+  "itemId": "",
+  "surveyInternetQuestion": "go_to_speedtest",
+  "ooklaUrl": "",
+  "redirectOnSubmitUrl": "https://broadband.colorado.gov/"
+}
