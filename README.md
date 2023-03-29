@@ -5,3 +5,6 @@ The Colorado Boradband Office has developed this Survey and Speed Test to collec
 Update configuration variables for your site:
 /config/application.json
 
+Survey123 xlsx:
+/Survey
+
