@@ -1,10 +1,10 @@
 {
   "title": "Colorado Broadband Survey and Speedtest",
   "description": "Test and submit your current internet connection speed.",
-  "portalUrl": "",
-  "clientId": "",
-  "itemId": "",
+  "portalUrl": "YOUR ARCGIS PORTAL URL",
+  "clientId": "YOUR OAuth 2.0 CLIENT ID FROM ARCGIS",
+  "itemId": "YOUR SURVEY123 ITEMID",
   "surveyInternetQuestion": "go_to_speedtest",
-  "ooklaUrl": "",
+  "ooklaUrl": "YOUR OOKLA URL",
   "redirectOnSubmitUrl": "https://broadband.colorado.gov/"
 }
